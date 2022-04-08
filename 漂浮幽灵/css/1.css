@@ -1,0 +1,171 @@
+body {
+	background-color: #00004a;
+}
+#a {
+	width: 100px;
+	height: 150px;
+	background-color: white;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 50px 50px 0px 0px;
+	box-shadow: -10px 0px #c7c7c7 inset, 0px 0px 110px #842c96;
+	animation: a 3s infinite;
+}
+#b {
+	position: absolute;
+	left: 30%;
+	top: 39%;
+	transform: translate(-50%,-50%);
+	width: 10px;
+	height: 25px;
+	border-radius: 35%;
+	background-color: black;
+	animation: b 3s infinite;
+}
+#c {
+	position: absolute;
+	left: 70%;
+	top: 39%;
+	transform: translate(-50%,-50%);
+	width: 10px;
+	height: 25px;
+	border-radius: 35%;
+	background-color: black;
+	animation: c 3s infinite;
+}
+#d {
+	position: absolute;
+		left: 26%;
+		top: 52%;
+		transform: translate(-50%,-50%);
+		width: 15px;
+		height: 15px;
+		border-radius: 35%;
+		background-color: pink;
+		opacity: 0.8;
+	}
+#e {
+	position: absolute;
+		left: 74%;
+		top: 52%;
+		transform: translate(-50%,-50%);
+		width: 15px;
+		height: 15px;
+		border-radius: 35%;
+		background-color: pink;
+		opacity: 0.8;
+	}
+#f {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background-color: white;
+	position: absolute;
+	left: 13%;
+	top: 100%;
+	transform: translate(-50%,-50%);
+}
+#g {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background-color: white;
+	position: absolute;
+	left: 38%;
+	top: 100%;
+	transform: translate(-50%,-50%);
+}
+#h {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background-color: white;
+	position: absolute;
+	left: 63%;
+	top: 100%;
+	transform: translate(-50%,-50%);
+}
+#i {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background-image:linear-gradient(to right, white 56%,#c7c7c7 44%);
+	position: absolute;
+	left: 88%;
+	top: 100%;
+	transform: translate(-50%,-50%);
+}
+@keyframes a{
+	0%{
+		top: 50%;
+	}
+	50%{
+		top: 43%;
+	}
+	100%{
+		top: 50%;
+	}
+}
+@keyframes b{
+	0%{
+		top: 39%;
+	}
+	40%{
+		top: 35%;
+		left: 28%;
+	}
+	60%{
+		top: 35%;
+		left: 34%;
+	}
+	100%{
+		top: 39%;
+	}
+}
+@keyframes c{
+	0%{
+		top: 39%;
+	}
+	40%{
+		top: 35%;
+		left: 68%;
+	}
+	60%{
+		top: 35%;
+		left: 74%;
+	}
+	100%{
+		top: 39%;
+	}
+}
+#j {
+	position: absolute;
+	left: 50%;
+	top: 65%;
+	transform: translate(-50%,-50%);
+	width: 80px;
+	height: 20px;
+	background-color: #767676;
+	border-radius: 50%;
+	opacity: 0.3;
+	animation: j 3s infinite;
+}
+@keyframes j{
+	0%{
+		width: 80px;
+		height: 20px;
+		opacity: 0.3;
+	}
+	50%{
+		width: 50px;
+		height: 20px;
+		opacity: 0.2;
+	}
+	100%{
+		width: 80px;
+		height: 20px;
+		opacity: 0.3;
+	}
+}
